@@ -1,0 +1,14 @@
+Spring:
+  application:
+    name: Projeto API
+  datasource:
+    url: jbdc:h2:mem:produtos
+    username: sa
+    password: password
+  jpa:
+    databse-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+        enabled: true
+        path: /meu-banco
+
